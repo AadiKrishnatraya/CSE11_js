@@ -37,7 +37,17 @@
 //     console.log("false");
 // }
 
-let x=12;
-let y=15;
-let z= 20;
-let biggest= (x>y && x>z)? console.log(x): ((y>z)? console.log(y): console.log(z)); 
+// let x=12;
+// let y=15;
+// let z= 20;
+
+
+// let biggest= (x>y && x>z)? console.log(x): ((y>z)? console.log(y): console.log(z)); 
+
+
+console.log("Starting loop");
+for(let count= 0; count<10; count++){
+    console.log("Count is:"+ count);
+    // console.log("<br/>");
+}
+console.log("Loop Stoped!!");
