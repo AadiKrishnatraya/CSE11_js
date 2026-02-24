@@ -12,15 +12,27 @@
 // console.log(num);
 // console.log(typeof(num));
 
-let sayHello= function(){
-    alert('Hello World');
-}
-var arr= [1,2,3];
-console.log(arr);
-var person={
-    name:'your name',
-    age:'51',
+// let sayHello= function(){
+//     alert('Hello World');
+// }
+// var arr= [1,2,3];
+// console.log(arr);
+// var person={
+//     name:'your name',
+//     age:'51',
 
 
+// }
+// console.log(person.name)
+
+//symbol
+
+const sym1= Symbol(4);
+console.log(sym1);
+const sym2= Symbol(4);
+console.log(sym2);
+if(sym1==sym2){
+    console.log("true");
+}else{
+    console.log("false");
 }
-console.log(person.name)
