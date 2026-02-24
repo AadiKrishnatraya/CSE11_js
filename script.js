@@ -27,12 +27,17 @@
 
 //symbol
 
-const sym1= Symbol(4);
-console.log(sym1);
-const sym2= Symbol(4);
-console.log(sym2);
-if(sym1==sym2){
-    console.log("true");
-}else{
-    console.log("false");
-}
+// const sym1= Symbol(4);
+// console.log(sym1);
+// const sym2= Symbol(4);
+// console.log(sym2);
+// if(sym1==sym2){
+//     console.log("true");
+// }else{
+//     console.log("false");
+// }
+
+let x=12;
+let y=15;
+let z= 20;
+let biggest= (x>y && x>z)? console.log(x): ((y>z)? console.log(y): console.log(z)); 
