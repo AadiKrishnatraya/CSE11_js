@@ -86,9 +86,14 @@
 
 // }
 
-function greatings(){
-    console.log("Hello, How are you doing today")
-}
+// function greatings(){
+//     console.log("Hello, How are you doing today")
+// }
 
-greatings();
+// greatings();
+
+
+function myFunction(){
+    alert("Welcome");
+}
 
