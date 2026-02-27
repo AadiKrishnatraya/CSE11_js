@@ -52,11 +52,17 @@
 // }
 // console.log("Loop Stoped!!");
 
-let person= {
-    name: "Ajay",
-    lname: "Singh",
-    age: 21,
-}
-for(let i in person){
-    console.log(i+":"+ person[i]);
+// let person= {
+//     name: "Ajay",
+//     lname: "Singh",
+//     age: 21,
+// }
+// for(let i in person){
+//     console.log(i+":"+ person[i]);
+// }
+
+let count= 0;
+while(count<10){
+    console.log("Current Value:"+ (count+1));
+    count ++;
 }
