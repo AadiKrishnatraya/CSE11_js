@@ -74,15 +74,21 @@
 //     console.log("minor")
 // }
 
-let grade ="D";
-switch(grade){
-    case "A": console.log("Good Job"); break;
-    case "B": console.log("Great"); break;
-    case "C": console.log("Average"); break;
-    case "D": console.log("Try Hard"); break;
-    case "E": console.log("Fail"); break;
-    default: console.log("Invalid Grade");
-    break;
+// let grade ="D";
+// switch(grade){
+//     case "A": console.log("Good Job"); break;
+//     case "B": console.log("Great"); break;
+//     case "C": console.log("Average"); break;
+//     case "D": console.log("Try Hard"); break;
+//     case "E": console.log("Fail"); break;
+//     default: console.log("Invalid Grade");
+//     break;
 
+// }
+
+function greatings(){
+    console.log("Hello, How are you doing today")
 }
+
+greatings();
 
