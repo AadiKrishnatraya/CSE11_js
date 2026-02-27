@@ -45,9 +45,18 @@
 // let biggest= (x>y && x>z)? console.log(x): ((y>z)? console.log(y): console.log(z)); 
 
 
-console.log("Starting loop");
-for(let count= 0; count<10; count++){
-    console.log("Count is:"+ count);
-    // console.log("<br/>");
+// console.log("Starting loop");
+// for(let count= 0; count<10; count++){
+//     console.log("Count is:"+ count);
+//     // console.log("<br/>");
+// }
+// console.log("Loop Stoped!!");
+
+let person= {
+    name: "Ajay",
+    lname: "Singh",
+    age: 21,
 }
-console.log("Loop Stoped!!");
+for(let i in person){
+    console.log(i+":"+ person[i]);
+}
