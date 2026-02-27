@@ -61,8 +61,16 @@
 //     console.log(i+":"+ person[i]);
 // }
 
-let count= 0;
-while(count<10){
-    console.log("Current Value:"+ (count+1));
-    count ++;
+// let count= 0;
+// while(count<10){
+//     console.log("Current Value:"+ (count+1));
+//     count ++;
+// }
+
+const age =20;
+if(age>=18){
+    console.log("you are adult!!")
+}else{
+    console.log("minor")
 }
+
