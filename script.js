@@ -114,8 +114,28 @@
 
 // arrow function
 
-let add= (a,b)=>{
-    console.log (a+b);
-};
+// let add= (a,b)=>{
+//     console.log (a+b);
+// };
 
-add(12,15);
+// add(12,15);
+
+// object
+
+// let x= new Object();
+// console.log(typeof(x))
+
+// let person= {
+//     name: 'Ajay',
+//     age: 21,
+//     isMarried: true,
+//     address: {
+//         street: 'good street',
+//         flatNo: 221,
+//     }
+// }
+// console.log(person.name);
+
+let myinfo= new Array();
+let myinfo1= Array();
+console.log(myinfo,myinfo1);
