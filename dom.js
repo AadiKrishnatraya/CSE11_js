@@ -14,6 +14,13 @@
 // tag[1].style.color= "blue"
 
 // querySelector only get firts element 
-const test= document.querySelectorAll("p");
-test[1].innerHTML= "Hello"
-test[1].style.color= "red";
+// const test= document.querySelectorAll("p");
+// test[1].innerHTML= "Hello"
+// test[1].style.color= "red";
+
+const test= document.querySelectorAll("ul li");
+ for(x in test){
+    test[x].style.backgroundColor="green";
+    test[x].style.margin= "10px";
+    test[x].style.color="Yellow"
+ }
