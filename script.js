@@ -157,3 +157,8 @@
 // collection.phone= 90909120903;
 // console.log(collection)
 
+info= ["Rahul", 90];
+console.log(info.length);
+info.name= "Shyam";
+console.log(info);
+console.log(info.length);
