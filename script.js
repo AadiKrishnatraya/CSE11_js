@@ -136,6 +136,24 @@
 // }
 // console.log(person.name);
 
-let myinfo= new Array();
-let myinfo1= Array();
-console.log(myinfo,myinfo1);
+// let myinfo= new Array();
+// let myinfo1= Array();
+// console.log(myinfo,myinfo1);
+
+// let collection= [
+//     {},
+//     [],
+//     true,
+//     "John",
+//     function(){},
+//     9000898908,
+//     undefined,
+//     null,
+//     new String("abc"),
+//     new Date()
+// ]
+// console.log(collection)
+// collection.teacherName= "John";
+// collection.phone= 90909120903;
+// console.log(collection)
+
