@@ -93,7 +93,20 @@
 // greatings();
 
 
-function myFunction(){
-    alert("Welcome");
-}
+// function myFunction(){
+//     alert("Welcome");
+// }
 
+// function hello(name){
+//     document.write("Hello");
+// }
+
+
+
+// const res= mul(12,14)
+
+// function mul(x,y){
+//     return x*y;
+// }
+
+// console.log(res);
