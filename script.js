@@ -187,3 +187,15 @@ function onMouseDown(){
 function onMouseMove(){
     console.log("Clicked");
 }
+
+
+// mouse keyboard and form event 
+
+const x= document.querySelector("input");
+x.addEventListener("foucs", onhandlefocus);
+x.addEventListener("blur", onhandleblur); 
+
+// window event onbody onresize onunload 
+function bodyChange(){
+    alert("Changes done")
+}
