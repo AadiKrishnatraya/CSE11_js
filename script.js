@@ -162,3 +162,28 @@
 // info.name= "Shyam";
 // console.log(info);
 // console.log(info.length);
+
+
+
+
+// Event
+// onclick. onmousehover. onmousedown. onmouseup. onmousemove. onmouseout. 
+
+function onClick(){
+    console.log("Clicked");
+}
+function onMouseOver(){
+    console.log("Clicked");
+}
+function onMouseOut(){
+    console.log("Clicked");
+}
+function onMouseUp(){
+    console.log("Clicked");
+}
+function onMouseDown(){
+    console.log("Clicked");
+}
+function onMouseMove(){
+    console.log("Clicked");
+}

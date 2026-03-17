@@ -31,6 +31,6 @@
 
 // }
 
-const head= document.createElement("h2");
-const body= document.getElementsByTagName("body");
-body[0].append(head);
+// const head= document.createElement("h2");
+// const body= document.getElementsByTagName("body");
+// body[0].append(head);
