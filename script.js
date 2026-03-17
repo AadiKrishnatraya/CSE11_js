@@ -169,33 +169,58 @@
 // Event
 // onclick. onmousehover. onmousedown. onmouseup. onmousemove. onmouseout. 
 
-function onClick(){
-    console.log("Clicked");
-}
-function onMouseOver(){
-    console.log("Clicked");
-}
-function onMouseOut(){
-    console.log("Clicked");
-}
-function onMouseUp(){
-    console.log("Clicked");
-}
-function onMouseDown(){
-    console.log("Clicked");
-}
-function onMouseMove(){
-    console.log("Clicked");
-}
+// function onClick(){
+//     console.log("Clicked");
+// }
+// function onMouseOver(){
+//     console.log("Clicked");
+// }
+// function onMouseOut(){
+//     console.log("Clicked");
+// }
+// function onMouseUp(){
+//     console.log("Clicked");
+// }
+// function onMouseDown(){
+//     console.log("Clicked");
+// }
+// function onMouseMove(){
+//     console.log("Clicked");
+// }
 
 
 // mouse keyboard and form event 
 
-const x= document.querySelector("input");
-x.addEventListener("foucs", onhandlefocus);
-x.addEventListener("blur", onhandleblur); 
+// const x= document.querySelector("input");
+// x.addEventListener("foucs", onhandlefocus);
+// x.addEventListener("blur", onhandleblur); 
 
 // window event onbody onresize onunload 
-function bodyChange(){
-    alert("Changes done")
+// function bodyChange(){
+//     alert("Changes done")
+// }
+
+
+
+
+// json
+// members[0].powers[2]
+
+let person= [
+   { names: "james",
+    class: 2,
+    age:20
+},
+   { names: "jam",
+    class: 2,
+    age:20
+},
+   { names: "vae",
+    class: 2,
+    age:20
+}
+]
+
+for(let x in person){
+    console.log(person[x].names)
 }
