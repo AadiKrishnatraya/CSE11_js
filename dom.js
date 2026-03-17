@@ -18,9 +18,15 @@
 // test[1].innerHTML= "Hello"
 // test[1].style.color= "red";
 
-const test= document.querySelectorAll("ul li");
- for(x in test){
-    test[x].style.backgroundColor="green";
-    test[x].style.margin= "10px";
-    test[x].style.color="Yellow"
- }
+// const test= document.querySelectorAll("ul li");
+//  for(x in test){
+//     test[x].style.backgroundColor="green";
+//     test[x].style.margin= "10px";
+//     test[x].style.color="Yellow"
+//  }
+
+// function myFunction(){
+//    let num= document.getElementById("myh1").setAttribute("class", "demoClass");
+//    alert("Done");
+
+// }
